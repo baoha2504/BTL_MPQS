@@ -216,8 +216,8 @@ blue_alive = BluesNum;
             force = 0.6*arr_force + avd_force*0.6 + coh_force + 0.7*steer_separation(CurrentBlue) + eva_force;     
            
             if dist(CurrentBlue, Reds(jk,:)) < 150
-            % N?u kho?ng cách bé h?n 150, Blues gi? nguyên t?i v? trí ?ang ??ng
-                force = 10; %  có l?c tác ??ng ph?n l?i
+            % N?u kho?ng cï¿½ch bï¿½ h?n 150, Blues gi? nguyï¿½n t?i v? trï¿½ ?ang ??ng
+                force = 10; %  cï¿½ l?c tï¿½c ??ng ph?n l?i
              
             end
             Blues(BlueIndex,:) = applyForce(CurrentBlue, force);
@@ -256,12 +256,6 @@ blue_alive = BluesNum;
             ik = ik + 1;
             Leader = Blues(ik, :);
         end
-
-        for i = 1: RedsNum
-            if ( Reds(i,15)<= 0 ) 
-                DieRNum = DieRNum +1;
-            end
-        end   
        
         if red_alive == 0
             win = 1;
