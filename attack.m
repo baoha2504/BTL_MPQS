@@ -124,11 +124,7 @@ while a
      if timeTick > 620
          %% Wander Reds
         posRed = pointsRed(j, :);
-        if check_reach_obstacles(LeaderRed) == 1
-            Goals = posRed;
-        end
-          %% Moving the 1-st Boid (as a leader)
-       
+          %% Moving the 1-st Boid (as a leader)       
         force_arrRed = 0.8*steer_arrival(Reds(1,:), posRed); %Move toward the mouse
         avd_forceRed= steer_collision_avoidance(Reds(1,:));
         forceRed = force_arrRed + avd_forceRed*0.03;
