@@ -1,6 +1,6 @@
 function Behavior__Arrival_Formation_Column()
 %% global variables
-global TimeSteps;
+global TimeSteps; 
 % global BluesNum;
 % global Blues;
 % global Targets;

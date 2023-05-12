@@ -12,4 +12,4 @@ global Goals;
     ObstaclesPlot.AlphaData = alpha_i;   
 
 
-end
+end 

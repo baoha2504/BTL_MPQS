@@ -4,7 +4,7 @@
         LeftBesideLeader(3) = 0;
         RightBesideLeader(3) = 0;
         RightBesideLeader(4:6) = Leader(4:6);
-        LeftBesideLeader(4:6) = Leader(4:6);
+        LeftBesideLeader(4:6) = Leader(4:6); 
         
         if (Alpha_Horizontal > 0 && Alpha_Horizontal < pi/2)
             LeftBesideLeader(1) = BehindLeader(1) - abs(sin(Alpha_Horizontal)*D_Beside);

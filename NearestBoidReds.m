@@ -8,7 +8,7 @@ if (any(BoidsFlag))
     while (i < RedsNum && BoidsFlag(i) ~= 0)
         i = i + 1;
     end
-end
+end 
 d_min = dist(Leader(1:3), Reds(i,1:3));
 while (d_min == 0 && i < RedsNum )
     i = i + 1;

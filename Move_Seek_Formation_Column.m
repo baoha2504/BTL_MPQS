@@ -7,7 +7,7 @@ p_following = AfterLeader;
 % to evade the route immediately.
 if (isOnLeaderSight(CurrentBoid, Leader))
     evade_force = steer_evade(CurrentBoid, Leader(1:3), Leader(4:6), FleeDistance);
-else
+else 
     evade_force = [0,0,0];
 end
 

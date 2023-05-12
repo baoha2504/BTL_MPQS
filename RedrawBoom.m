@@ -19,4 +19,4 @@ for BoidIndex = 1 : BoidsNum
     end
 end
 
-drawnow;
+drawnow; 

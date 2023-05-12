@@ -8,7 +8,7 @@ v_maxforce = Boid(11);
 
 steer = [0 0 0];
 
-desired = [0 0 0];
+desired = [0 0 0]; 
 count = 0;
 for vhl_o=1:BoidsNum
     vhl_o_pos = Boids(vhl_o,1:3);

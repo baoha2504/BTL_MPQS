@@ -10,7 +10,7 @@ global BaseR;
     BasesPlot= image(-600, -600, img_i);
     BasesPlot.AlphaData = alpha_i;  
 %%base 1
-    angle = -180;	% imrotate rotates ccw     
+    angle = -180;	% imrotate rotates ccw      
     img_i = imrotate(v_ImageBR, angle);
     alpha_i = imrotate(v_AlphaBR, angle );
     BasesPlot= image(BaseR(1) - 150, BaseR(2) - 200, img_i);

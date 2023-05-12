@@ -4,7 +4,7 @@ global BluesNum;
 BoidsFlag = zeros(1, BluesNum);
 BoidsFlag(1) = 1;
 
-% Calculate the Weights for each Boid
+% Calculate the Weights for each Boid 
 WeightsMatrix = WeightFunction_Seek_Formation_Column(Target, Boids, BluesNum, D_Behind);
 
 BoidsIndex(1) = 1;

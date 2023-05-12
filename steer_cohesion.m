@@ -8,7 +8,7 @@ v_vel = Boid(4:6);
 v_maxspeed = Boid(10);
 v_maxforce = Boid(11);
 
-steer = [0 0 0];
+steer = [0 0 0]; 
 
 desired = [0 0 0];
 count = 0;

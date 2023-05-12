@@ -15,7 +15,7 @@ global ObstaclesNum;
     img_i = imrotate(v_ImageS31, angle);
     alpha_i = imrotate(v_AlphaS31, angle );
     ObstaclesPlot= image(Obstacles(31,1)+240, Obstacles(31,1)+130, img_i);
-    ObstaclesPlot.AlphaData = alpha_i;
+    ObstaclesPlot.AlphaData = alpha_i; 
     
     %% canh cua 3
     angle = 0;	% imrotate rotates ccw     

@@ -15,5 +15,5 @@ for Index = 2:BoidsNum
     f_formation = steer_pursue_arrival(Boids(Index,:),BehindLeader);    
     % Calculate weights for the other boids except 1-st and 2-nd Boids
     WeightsMatrix(Index) = mag(f_formation) / mag(f_goal);
-end
+end 
 end

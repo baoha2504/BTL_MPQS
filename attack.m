@@ -208,8 +208,7 @@ blue_alive = BluesNum;
             arr_force = steer_pursue_arrival(CurrentBlue, Reds(jk,:));
             avd_force = steer_collision_avoidance(Blues(BlueIndex,:)); 
             coh_force = 0.4*steer_cohesion(CurrentBlue);
-            eva_force = 0.3 * steer_evade(CurrentBlue,Reds(jk,:), 4, 60);
-            force = 0.6*arr_force + avd_force*0.6 + coh_force + 0.7*steer_separation(CurrentBlue) + eva_force;     
+            force = 0.6*arr_force + avd_force*0.6 + coh_force + 0.7*steer_separation(CurrentBlue);     
            
             if dist(CurrentBlue, Reds(jk,:)) < 150
             % N?u kho?ng c�ch b� h?n 150, Blues gi? nguy�n t?i v? tr� ?ang ??ng
@@ -282,7 +281,7 @@ blue_alive = BluesNum;
             if (J>0 && dist(Reds(i,:),Blues(J,:))<ShootDistanceB)
                 % Shoot
                 c2=line([Blues(J,1), Reds(i,1)-2],[Blues(J,2), Reds(i,2)],'Color','red','LineStyle','-.');
-                pause(0.02);
+                pause(0.01);
                 sound(gun,gunFs);
                 delete(c2);
                 if ( sqrt(deviationXR*deviationXR + deviationYR*deviationYR) < ImageWidth)
@@ -302,7 +301,7 @@ blue_alive = BluesNum;
             if (J>0 && dist(Blues(i,:),Reds(J,:))<ShootDistanceB)
                 % Shoot
                 c2=line([Reds(J,1), Blues(i,1)-2],[Reds(J,2), Blues(i,2)],'Color','blue','LineStyle','--');
-                pause(0.02);
+                pause(0.01);
                 sound(gun,gunFs);
                 delete(c2);
                 if ( sqrt(deviationXB*deviationXB + deviationYB*deviationYB) < ImageWidth)

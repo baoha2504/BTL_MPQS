@@ -8,7 +8,7 @@ p_following = AfterLeader;
 if (isOnLeaderSight(CurrentBoid, Leader))
     evade_force = 0.002*steer_evade(CurrentBoid, Leader(1:3), Leader(4:6), FleeDistance);
 else
-    evade_force = [0,0,0];  
+    evade_force = [0,0,0];   
 end
 evade_force = [0,0,0];
 avd_force = 0.001 * steer_collision_avoidance(CurrentBoid); 

@@ -7,7 +7,7 @@ BoidsFlag(1) = 1;
 % Calculate the Weights for each Boid
 WeightsMatrix = WeightFunction_Arrival_Formation_Column(Target, Boids, RedsNum, D_Behind);
 
-BoidsIndex(1) = 1;
+BoidsIndex(1) = 1; 
 BehindLeader = FindBehindLeader(Leader, D_Behind);
 [LeaderBehind,BoidsFlag,MinIndex] = NearestBoidReds(BehindLeader, BoidsFlag);
 

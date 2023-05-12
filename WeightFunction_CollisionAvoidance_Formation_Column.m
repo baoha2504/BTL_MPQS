@@ -15,5 +15,5 @@ for Index = 2:BoidsNum
     else
         WeightsMatrix(Index) = 1;
     end
-end
+end 
 end

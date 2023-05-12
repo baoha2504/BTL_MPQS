@@ -5,7 +5,7 @@ global Boids;
 
 global Reds;
 global RedsNum;
-global Blues;
+global Blues; 
 global BluesNum;
 
 global Targets;

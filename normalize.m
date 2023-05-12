@@ -4,4 +4,4 @@ function norm = normalize(A)
     A = A/mag_;
   end
   norm = A;
-end
+end 

@@ -42,7 +42,7 @@ Reds(:,10) = 4;%*(rand([BoidsNum,1]) + 0.2); % set maxspeed
 Reds(:,11) = 0.2; % set maxforce
 Reds(:,13) = 100; % set max see ahead
 Reds(:,14) = 10; % set max avoid force
-Reds(:,15) = 70; % set blood
+Reds(:,15) = 100; % set blood
 
 %% List of Blues
 Blues = zeros(MaxBlueNum,15); % initialize boids matrix
@@ -57,7 +57,7 @@ Blues(:,10) = 6;%*(rand([BoidsNum,1]) + 0.2); % set maxspeed
 Blues(:,11) = 0.2; % set maxforce
 Blues(:,13) = 100; % set max see ahead
 Blues(:,14) = 10; % set max avoid force
-Blues(:,15) = 70; % set blood
+Blues(:,15) = 100; % set blood
 % Blues(1,15) = 10000; % set blood
 %% Set static Obstacle data
 ObstaclesNum = 12;

@@ -13,4 +13,4 @@ for Index = 2:BoidsNum
     % Calculate weights for the other boids except 1-st and 2-nd Boids
     WeightsMatrix(Index) = mag(f_formation) / mag(f_goal);
 end
-end
+end 

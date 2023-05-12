@@ -3,7 +3,7 @@ function Behaviour__LeaderFollowing ()
 global TimeSteps;
 global BoidsNum;
 global TargetsNum;
-global FleeDistance;
+global FleeDistance; 
 global Boids;
 global Targets;
 global D_BehindLeader;

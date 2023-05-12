@@ -10,5 +10,5 @@ function check = check_reach_obstacles(boid)
     else
         check = 0;
     end
-
+ 
 end

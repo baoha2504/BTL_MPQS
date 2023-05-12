@@ -8,7 +8,7 @@ v_vel = Boid(4:6);
 v_maxspeed = Boid(10);
 v_maxforce = Boid(11);
 v_max_see_ahead = Boid(13);
-v_max_avoid_force = 300; %Boid(14);
+v_max_avoid_force = 300; %Boid(14); 
 
     % find the most threaten obstacle
     function mostThreatenObstacle = findMostThreateningObstacle()

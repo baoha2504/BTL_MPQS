@@ -5,4 +5,4 @@ function [BasesPlot] = InitializeFlag (v_Image,v_Alpha)
     alpha_i = imrotate(v_Alpha, angle );
     alpha_i = flip(alpha_i, 2);
     BasesPlot= image(-200, -50, img_i);
-    BasesPlot.AlphaData = alpha_i; 
+    BasesPlot.AlphaData = alpha_i;  

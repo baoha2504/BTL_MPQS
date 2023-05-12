@@ -6,5 +6,5 @@ desired = Target(1:3) - v_pos;
 %Calculate the T_Prediction to predict a future position
 T = mag(desired)/v_maxspeed;
 futurePosition = Target(1:3) + Target_Velocity*T;
-steer = steer_arrival(boid, futurePosition);
+steer = steer_arrival(boid, futurePosition); 
 end

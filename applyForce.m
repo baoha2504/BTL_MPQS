@@ -2,7 +2,7 @@ function boid = applyForce(boid, steer)
   %add steer force to acceleration
   v_pos = boid(1:3);
   v_vel = boid(4:6);
-  v_acc = boid(7:9);
+  v_acc = boid(7:9); 
   v_maxspeed = boid(10);
  
   

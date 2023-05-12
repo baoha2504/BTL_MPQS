@@ -6,7 +6,7 @@ global ObstaclesNum;
 %         plot(Obstacles(i,1),Obstacles(i,2),'o','MarkerSize',Obstacles(i,4)/2,'Color','b');
 %     end
 
-    %% canh cua hang rao 1
+    %% canh cua hang rao 1 
     angle = 30;	% imrotate rotates ccw     
     img_i = imrotate(v_ImageS3, angle);
     alpha_i = imrotate(v_AlphaS3, angle );

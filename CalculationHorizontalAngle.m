@@ -5,7 +5,7 @@
         if (v_leader(1) > 0)
             if (v_leader(2) < 0)                
                 Alpha_Horizontal = 2*pi - Alpha_Horizontal ;
-            end
+            end 
         else
             if (v_leader(2) > 0)
                 Alpha_Horizontal = pi - Alpha_Horizontal;

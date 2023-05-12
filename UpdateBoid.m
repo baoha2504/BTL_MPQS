@@ -8,3 +8,4 @@ for i=1:BoidsNum
     end
 end
 % BoidsNum = after_Num;
+ 

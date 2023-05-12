@@ -10,4 +10,4 @@ for i = 1: FightsNum
     FightsPlot(i).AlphaData = alpha_i;   
     ObstaclesF(i,1)=Fights(i,2);
     ObstaclesF(i,2)=Fights(i,1);
-end
+end 

@@ -5,4 +5,4 @@ function check = check_reach_reds(blues, reds)
     for i=1:BluesNum
         v_post = 
     end
-end
+end 

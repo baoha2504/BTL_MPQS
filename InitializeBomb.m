@@ -10,4 +10,4 @@ axis([-EnvironmentWidth EnvironmentWidth -EnvironmentWidth EnvironmentWidth]);
             BombsPlot = image(Booms(index,1)-25, Booms(index,2)-25, img_i);
             BombsPlot.AlphaData = alpha_i;   
 
-end
+end 

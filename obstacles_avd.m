@@ -6,4 +6,4 @@ function check = obstacles_avd(Target)
     Leader = Blues(1, :);            
     [Blues, BoidsIndex] = steer_Arrival_Formation_Column(Target, Blues, Leader, D_Behind);
     check = 1;
-end
+end 

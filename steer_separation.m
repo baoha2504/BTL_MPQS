@@ -4,7 +4,7 @@ global BluesNum;
 global Blues;
 v_pos = Boid(1:3);
 v_vel = Boid(4:6);
-v_maxspeed = Boid(10);
+v_maxspeed = Boid(10); 
 v_maxforce = Boid(11);
 
 desired = [0 0 0];

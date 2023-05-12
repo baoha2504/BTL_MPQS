@@ -10,4 +10,4 @@ global ObstaclesNum;
     ObstaclesPlot= image(Obstacles(31,1)-320, Obstacles(31,1), img_i);
     ObstaclesPlot.AlphaData = alpha_i;
 
-end
+end 

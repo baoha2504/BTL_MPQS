@@ -15,4 +15,4 @@ function check = see_reds_target()
     else 
         check = 0;
     end
-end
+end 

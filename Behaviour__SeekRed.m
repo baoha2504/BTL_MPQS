@@ -4,7 +4,7 @@ global BoidsNum;
 global Boids;
 
 global Reds;
-global RedsNum;
+global RedsNum; 
 global Blues;
 global BluesNum;
 

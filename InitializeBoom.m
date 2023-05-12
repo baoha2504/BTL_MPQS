@@ -16,3 +16,4 @@ for i=1:BoomsNum
     BoomsPlot(i) = image(Booms(i,1), Booms(i,2), img_i);
     BoomsPlot(i).AlphaData = alpha_i;      
 end
+ 

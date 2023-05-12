@@ -7,4 +7,4 @@ function limit = setLimit(A, max)
     A(3) = (A(3)*max)/mag;
   end
   limit = A;
-end
+end 

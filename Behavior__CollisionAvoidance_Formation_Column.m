@@ -1,7 +1,7 @@
 function Behavior__CollisionAvoidance_Formation_Column()
 %% global variables
 global TimeSteps;
-% global BluesNum;
+% global BluesNum; 
 % global Blues;
 % global Targets;
 % global SaveMousePosition;

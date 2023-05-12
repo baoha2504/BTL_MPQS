@@ -6,7 +6,7 @@ global BluesHP;
 global BloodPos;
 global SizeHPBar;
 
-delete(BluesHP);
+delete(BluesHP); 
 
 for i = 1 : BluesNum
     if(Blues(i,15)>0)

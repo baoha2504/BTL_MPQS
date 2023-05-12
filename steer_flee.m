@@ -14,4 +14,4 @@ if (d <= fleeDistance) % only avoid the target if it's near
     steer = desired - v_vel;
     steer = -setLimit(steer, v_maxforce); % set limit steer force
 end
-end
+end 

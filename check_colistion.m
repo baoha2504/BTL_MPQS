@@ -7,7 +7,7 @@ for RedsIndex = 1: BluesNum
     disp(d); 
     if(d <= 100)
         count = count + 1;
-    end  
+    end   
 end
 if count == 3
     check = 1;

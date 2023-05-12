@@ -15,4 +15,4 @@ axis manual;
 axis([-EnvironmentWidth EnvironmentWidth -EnvironmentWidth EnvironmentWidth]);
 
 plot(Target1(1),Target1(2),'o','MarkerSize',5,'MarkerFaceColor','b','Color','b');
-plot(Target2(1),Target2(2),'o','MarkerSize',5,'MarkerFaceColor','r','Color','r');
+plot(Target2(1),Target2(2),'o','MarkerSize',5,'MarkerFaceColor','r','Color','r'); 

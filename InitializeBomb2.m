@@ -9,4 +9,4 @@ axis([-EnvironmentWidth EnvironmentWidth -EnvironmentWidth EnvironmentWidth]);
             alpha_i = imrotate(v_AlphaN, angle); 
             BombsPlot = image(Fights(index,1)+60, Fights(index,2)-60, img_i);
             BombsPlot.AlphaData = alpha_i;   
-end
+end 

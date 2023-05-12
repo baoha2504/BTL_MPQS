@@ -3,7 +3,7 @@ function steer = steer_wander(boid)
   v_vel = boid(4:6);
 
   CIRCLE_DISTANCE = 3;
-  CIRCLE_RADIUS = 1;
+  CIRCLE_RADIUS = 1; 
   ANGLE_CHANGE = 0.3;
   
   circleCenter = setMag(v_vel, CIRCLE_DISTANCE);

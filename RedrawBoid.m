@@ -13,7 +13,7 @@ for BoidIndex = 1 : BoidsNum
         catch Me
             disp(' here1');
 %             v_angle
-        end
+        end 
 
         BoidsPlot(BoidIndex).CData = img_i;
         BoidsPlot(BoidIndex).AlphaData = alpha_i;

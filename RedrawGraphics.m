@@ -22,7 +22,7 @@ for BoidIndex = 1 : BoidsNum
     catch Me
         disp('hi')
         [Boids(BoidIndex,1),Boids(BoidIndex,2)]
-    end
+    end 
 end
 
 drawnow;

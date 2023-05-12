@@ -7,7 +7,7 @@ v_AlphaBB = imresize(v_AlphaBB, [320 280], 'lanczos3' );
 
 [v_ImageBR, ~, v_AlphaBR]	= imread('baseR.png');
 v_ImageBR = imresize(v_ImageBR, [320 280], 'lanczos3' );
-v_AlphaBR = imresize(v_AlphaBR, [320 280], 'lanczos3' );
+v_AlphaBR = imresize(v_AlphaBR, [320 280], 'lanczos3' ); 
 
 [v_ImageBF, ~, v_AlphaBF]	= imread('baseF.png');
 v_ImageBF = imresize(v_ImageBF, [1200 1200], 'lanczos3' );

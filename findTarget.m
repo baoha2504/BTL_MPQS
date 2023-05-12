@@ -5,5 +5,5 @@ for i=1:OBJNum
         tmpDist=dist(Boid,OBJs(i,:));
         J=i;
     end
-end
+end 
 index=J;

@@ -6,7 +6,7 @@ v_AlphaS1 = imresize(v_AlphaS1, [100 250], 'lanczos3' );
 
 [v_ImageS2, ~, v_AlphaS2]	= imread('FlagB.png');
 v_ImageS2 = imresize(v_ImageS2, [200 628], 'lanczos3' );
-v_AlphaS2 = imresize(v_AlphaS2, [200 628], 'lanczos3' );
+v_AlphaS2 = imresize(v_AlphaS2, [200 628], 'lanczos3' ); 
 
 [v_ImageS3, ~, v_AlphaS3]	= imread('minigate.png');
 v_ImageS3 = imresize(v_ImageS3, [40 90], 'lanczos3' );

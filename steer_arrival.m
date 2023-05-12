@@ -7,7 +7,7 @@ v_maxforce = boid(11);
 desired = Target(1:3) - v_pos;
 
 d = mag(desired);
-slowingRadius = 100;
+slowingRadius = 100; 
 
 desired = setMag(desired, v_maxspeed); % set magnitude
 if (d < slowingRadius)

@@ -1,7 +1,7 @@
 function Behaviour__Flee ()
 %% global variables
 global TimeSteps;
-global FleeDistance;
+global FleeDistance; 
 global BoidsNum;
 global Boids;
 %% first draw

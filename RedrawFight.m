@@ -16,4 +16,4 @@ for i = 1: FightsNum
         [Fights(i,1),Fights(i,2)]
     end
 end
-drawnow;
+drawnow; 

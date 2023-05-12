@@ -16,4 +16,4 @@ for i = 1 : RedsNum
         RedsHP(i)=plot([x1 x2],[y1 y2],'-','Color','r','LineWidth',SizeHPBar);%line([x1 x2],[y1 y2],'Color','red','LineStyle','-');       
     end
 end
-drawnow;
+drawnow; 

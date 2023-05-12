@@ -9,7 +9,7 @@ for i=1:OBJNum
     if (OBJs(i,15)>=0)
         img_i = imrotate(v_Image, angle);
         alpha_i = imrotate(v_Alpha, angle); 
-    else
+    else 
     img_i = imrotate(v_ImageE, angle);
     alpha_i = imrotate(v_AlphaE, angle);                
     end  

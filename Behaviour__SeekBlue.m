@@ -4,7 +4,7 @@ global Reds RedsNum MaxRedNum RedsHP DieRNum;
 global Blues BluesNum MaxBlueNum BluesHP DieBNum;
 global Fights FightsNum MaxFightNum ObstaclesF ;
 global Booms BoomsNum Targets TargetsNum;
-global SaveMousePosition;
+global SaveMousePosition; 
 global ImageWidth;
 global ObstaclesB ObstaclesNumB;
 global ObstaclesR ObstaclesNumR;

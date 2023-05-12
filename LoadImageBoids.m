@@ -10,7 +10,7 @@ v_AlphaR = imresize(v_AlphaR, [ImageWidth 50], 'lanczos3' );
 [v_ImageB, ~, v_AlphaB]	= imread('SoldierB.png');
 % [v_ImageB, ~, v_AlphaB]	= imread('boid_2.png');
 v_ImageB = imresize(v_ImageB, [ImageWidth 50], 'lanczos3' );
-v_AlphaB = imresize(v_AlphaB, [ImageWidth 50], 'lanczos3' );
+v_AlphaB = imresize(v_AlphaB, [ImageWidth 50], 'lanczos3' ); 
 
 [v_ImageE, ~, v_AlphaE]	= imread('rip.png');
 v_ImageE = imresize(v_ImageE, [ImageWidth ImageWidth], 'lanczos3' );
